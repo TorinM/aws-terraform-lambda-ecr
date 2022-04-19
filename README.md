@@ -29,6 +29,6 @@ resource "aws_lambda_function" "foo" {
 
 Resulting in error configuring the lambda function as no image has been added to the ecr repository.
 
-## [Solution](solution/main.tf)
+## [Solution](solution/)
 
 Introduce the docker provider to the Terraform Configuration and build docker through Terraform.
